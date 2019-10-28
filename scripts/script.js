@@ -91,7 +91,7 @@ function getImgUrl() {
                         lon = parseFloat(Number(parsedLoca.longitude).toFixed(2).toString());
                         // alert("generate [ " + typeof lat + "/" + lat + ", " + typeof lon + "/" +  lon + " ]");
                         $.ajax({
-                            url: 'http://api.geonames.org/countryCodeJSON?lat=' + lat + '&lng=' + lon + '&username=lynnecc98',
+                            url: 'https://cors-anywhere.herokuapp.com/http://api.geonames.org/countryCodeJSON?lat=' + lat + '&lng=' + lon + '&username=lynnecc98',
                             success: function (data) {
                                 var dataInJson = JSON.stringify(data);
                                 var parsed = JSON.parse(dataInJson);
