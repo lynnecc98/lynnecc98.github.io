@@ -82,6 +82,8 @@ function initMap() {
     if(isInitialized){
         //rotate(10);
         $('#car').effect("shake", { times:3 }, 500);
+        $('#country').effect("shake", { times:3 }, 500);
+        $('#map').effect("shake", { times:3 }, 500);
     }
 
 }
