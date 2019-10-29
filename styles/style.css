@@ -59,7 +59,7 @@
 	right: 18%;
 	bottom: 13%;
 	z-index:2;
-	font-size: 15px;
+	font-size: 12px;
 
 }
 
@@ -125,7 +125,7 @@ html, body {
 	white-space: pre;
 
 	font-family: 'Indie Flower', cursive;
-	font-size: 8px;
+	font-size: 1px;
 	background-color: opacity(0%);
 	opacity:0;
 	border: none;
